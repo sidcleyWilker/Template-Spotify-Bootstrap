@@ -68,12 +68,13 @@ nav.navbar-transparente {
 	margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
 	color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: #9bf0e1;
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+	color: #1db954;
+	background: none;
 }
 
 
@@ -145,4 +146,22 @@ nav.navbar-transparente {
 	-ms-transform: rotate(30deg); /* IE 9 */
     -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
     padding-left: 80px;
+}
+
+/* =============================== rodape ===============================*/
+
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+#rodape h4 {
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.item-rede-social {
+	float: right;
 }
